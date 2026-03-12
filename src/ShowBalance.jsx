@@ -14,7 +14,7 @@ export const ShowSolBalance = () => {
 
     getBalance();
     return (
-        <div className="flex flex-row gap-2 text-l font-semibold">
+        <div className="flex flex-row gap-2 text-l font-semibold border rounded-2xl px-10 py-2 bg-violet-800 text-white">
             <p>SOL Balance: </p><div id="balance"></div>
         </div >
     )
