@@ -7,6 +7,7 @@ import "@solana/wallet-adapter-react-ui/styles.css"
 import { Airdrop } from "./Airdrop";
 import { ShowSolBalance } from "./ShowBalance";
 import { SendTokens } from "./SendTokens";
+import { SignMessage } from "./SignMessage";
 
 const endpoint = "https://solana-devnet.g.alchemy.com/v2/dhuFXA2gtsJsGgz7diJSo"
 
@@ -26,6 +27,7 @@ const App = () => {
                 <Airdrop />
                 <ShowSolBalance />
                 <SendTokens />
+                <SignMessage />
               </div>
             </div>
           </WalletModalProvider>
