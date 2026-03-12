@@ -5,6 +5,7 @@ import { UnsafeBurnerWalletAdapter } from "@solana/wallet-adapter-wallets";
 import { WalletModalProvider, WalletDisconnectButton, WalletMultiButton, WalletConnectButton } from "@solana/wallet-adapter-react-ui";
 import "@solana/wallet-adapter-react-ui/styles.css"
 import { Airdrop } from "./Airdrop";
+import { ShowSolBalance } from "./ShowBalance";
 
 const endpoint = "https://solana-devnet.g.alchemy.com/v2/dhuFXA2gtsJsGgz7diJSo"
 
@@ -19,6 +20,7 @@ const App = () => {
               <WalletDisconnectButton />
               <div className="flex items-center text-2xl">Wallet Adapter For DApp  </div>
               <Airdrop />
+              <ShowSolBalance />
             </div>
           </WalletModalProvider>
         </WalletProvider>
