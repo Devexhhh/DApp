@@ -13,7 +13,7 @@ export const Airdrop = () => {
         <>
             <div className="flex flex-row gap-2">
                 <input type="text" placeholder="Amount" className="border rounded-sm px-3 py-1"></input>
-                <button onClick={sendAirdropToUser} className="cursor-pointer border px-3 py-1 rounded-sm bg-violet-500 text-white">Send Airdrop</button>
+                <button onClick={sendAirdropToUser} className="cursor-pointer font-semibold border px-3 py-1 rounded-sm bg-violet-800 text-white">Send Airdrop</button>
             </div>
         </>
     )
